@@ -4,6 +4,7 @@ sidebar_position: 2
 
 # Create a Document
 
+This is a test
 Documents are **groups of pages** connected through:
 
 - a **sidebar**
