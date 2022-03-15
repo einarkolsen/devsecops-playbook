@@ -14,8 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Telia', // Usually your GitHub org/user name.
-  projectName: 'telia-devsecops-playbook', // Usually your repo name.
-
+  projectName: 'devsecops-playbook', // Usually your repo name.
+  trailingSlash: false,
   presets: [
     [
       'classic',
@@ -24,13 +24,14 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/TeliaSoneraNorge/devsecops-playbook/tree/master',
+
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/TeliaSoneraNorge',
+            'https://github.com/TeliaSoneraNorge/devsecops-playbook',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Telia DevSecOps Handbook',
+        title: 'Telia DevSecOps',
         logo: {
           alt: 'Telia',
           src: 'img/telia.png',
@@ -53,11 +54,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'DevSecOps Playbook',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/TeliaSoneraNorge',
+            href: 'https://github.com/TeliaSoneraNorge/devsecops-playbook',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,7 +102,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TeliaSoneraNorge/devsecops-playbook',
               },
             ],
           },
