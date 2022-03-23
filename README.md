@@ -26,16 +26,10 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
+This site currently runs on [Netlify](https://devsecops-telia.netlify.app/) and is automatically deployed upon push to master. 
 
-```
-$ USE_SSH=true yarn deploy
-```
+### Contriute
+Anybody can contribute to the project. You can do so ether by:
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+* checking out the repo, do changes locally and push to the master branch, or
+* edit files directly on the gihub website (there is a link on this website)
