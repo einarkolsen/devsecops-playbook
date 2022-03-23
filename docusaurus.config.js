@@ -56,16 +56,24 @@ const config = {
             position: 'left',
             label: 'DevSecOps Playbook',
           },
-          {href: 'https://engineering.telia.no/blog', label: 'Blog', position: 'left'},
+          {
+            href: '/docs/events/',
+            label: 'Events',
+            position: 'left',
+          },
+          {
+            href: 'https://engineering.telia.no/blog', 
+            label: 'Blog', 
+            position: 'left'},
           {
             href: 'https://github.com/TeliaSoneraNorge/devsecops-playbook',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -107,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DevSecops Playbook. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

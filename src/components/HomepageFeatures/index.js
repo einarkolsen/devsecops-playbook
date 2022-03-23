@@ -4,12 +4,14 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Paved road approach',
+    Svg: require('@site/static/img/paved_road.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Our DevSecOps journey follows a paved road approach. The book can help you 
+       and your team on implementing devops practices. Using the playbook is not a 
+       requirement, but the book gives you the principles that we believe you should follow
+       in order to build secure, quality sofware as effectively as possible in your context.
       </>
     ),
   },
@@ -24,12 +26,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Events',
+    Svg: require('@site/static/img/calendar.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Want to learn more about DevSecOps? Or maybe you have an idea for 
+        an event? Our goal is to have an active Community of Practice where 
+        we share and learn from each other. See our <a href="#">events</a>.
       </>
     ),
   },
