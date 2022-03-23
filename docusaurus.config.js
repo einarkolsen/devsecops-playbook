@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'DevSecOps Playbook',
   tagline: 'You build it, you run it – and security is never someone else’s problem',
-  url: 'https://devsecops.github.io',
-  baseUrl: '/devsecops-playbook/',
+  url: 'https://devsecops-telia.netlify.app/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
