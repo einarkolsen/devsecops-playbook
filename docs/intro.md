@@ -13,3 +13,6 @@ Popularized by Amazon back in 2003. This means that teams should take responsibi
 
 ## Why?
 Research shows that teams following DevOps principles and practises deliver software more effectively and with higher quality. In general, team members in these teams score higher on happiness surveys.
+
+## Want to contribute? 
+This is a change that should be driven from the ground up. Want to become a DevSecOps champion? Contact us!
