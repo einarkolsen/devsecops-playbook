@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Telia DevSecOps Handbook',
-  tagline: 'You build it, you run it –and Security is never someone else’s problem',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'DevSecOps Playbook',
+  tagline: 'You build it, you run it – and security is never someone else’s problem',
+  url: 'https://devsecops.github.io',
+  baseUrl: '/devsecops-playbook/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Telia', // Usually your GitHub org/user name.
+  organizationName: 'TeliaSoneraNorge', // Usually your GitHub org/user name.
   projectName: 'devsecops-playbook', // Usually your repo name.
   trailingSlash: false,
   presets: [
@@ -56,7 +56,7 @@ const config = {
             position: 'left',
             label: 'DevSecOps Playbook',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {href: 'https://engineering.telia.no/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/TeliaSoneraNorge/devsecops-playbook',
             label: 'GitHub',
